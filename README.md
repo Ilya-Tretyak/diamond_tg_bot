@@ -30,11 +30,6 @@
 └── text.py                    # Текстовые ресурсы
 ```
 
-## Технологии и инструменты
-
-- **Python:** Основной язык программирования.
-- **Aiogram:** Фреймворк для создания асинхронных Telegram-ботов.
-
 ## 🛠 Технологии
 <p>
   <img src="https://img.shields.io/badge/Python-3.9+-blue?logo=python" alt="Python">
@@ -48,9 +43,11 @@
    ```bash
    git clone https://github.com/yourusername/irene-atelier-bot.git
    cd irene-atelier-bot
-   python -m venv .venv
    ```
 2. Настроить окружение:
+   ```bash
+   python -m venv .venv
+   ```
    ```bash
    source venv/bin/activate  # Linux/Mac
    ```
